@@ -12,19 +12,6 @@ This project leverages data engineering and machine learning techniques to:
 * **Deploy and monitor the model:**  Integrate the model into a system for real-time or batch prediction, and continuously monitor its performance.
 * **Facilitate interventions:**  Use the model's predictions to trigger proactive interventions, such as increased home care visits, telehealth monitoring, and medication reviews.
 
-## Project Structure
-
-├── data
-│   ├── raw            # Raw data from various sources
-│   ├── processed      # Cleaned and preprocessed data
-│   └── features       # Engineered features
-├── models             # Trained machine learning models
-├── notebooks          # Jupyter notebooks for data exploration, analysis, and model development
-├── scripts            # Python scripts for data acquisition, processing, and model deployment
-├── src                # Source code for the prediction system
-├── dashboards         # Code and configurations for dashboards and visualizations
-└── README.md          # This file
-
 ## Data Sources
 
 * **Primary Care Records:** GP visits, diagnoses, medications.
